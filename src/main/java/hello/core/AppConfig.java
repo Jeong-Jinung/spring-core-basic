@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 
 //구성 영역
 //공연의 기획자 역할 -> 공연 기획자는 공연 참여자인 구현 객체들을 모두 알아야 한다.
-@Configuration
+@Configuration // -> 자동으로 컨테이너에 관리하게 해줌
 public class AppConfig {
 
     //@Bean memberService -> new MemoryMemberRepository
